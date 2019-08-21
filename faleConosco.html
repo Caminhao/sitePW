@@ -25,58 +25,60 @@
     </div>
     <main class="main">
         <section>
-            <form method="GET" action="#">
-                <fieldset>
-                    <legend>Fale conosco</legend>
-                    <table>
-                        <tr>
-                            <td class="lab">
-                                <label for="nome">Nome: </label>
-                            </td>
-                            <td>
-                                <input type="text" name="nome" id="nome" placeholder="Nome" size="28" class="inp">
-                            </td>
-                        </tr>
+            <div class="formulario">
+                <form method="GET" action="#">
+                    <fieldset>
+                        <legend>Fale conosco</legend>
+                        <table>
+                            <tr>
+                                <td class="lab">
+                                    <label for="nome">Nome: </label>
+                                </td>
+                                <td>
+                                    <input type="text" name="nome" id="nome" placeholder="Nome" size="28" class="inp" required="required">
+                                </td>
+                            </tr>
 
-                        <tr>
-                            <td class="lab">
-                                <label for="phone">Telefone: </label>
-                            </td>
-                            <td>
-                                <input type="number" name="phone" id="phone" placeholder="(xx) 12345-6789" size="28" class="inp">
-                            </td>
-                        </tr>
+                            <tr>
+                                <td class="lab">
+                                    <label for="phone">Telefone: </label>
+                                </td>
+                                <td>
+                                    <input type="number" name="phone" id="phone" placeholder="(xx) 12345-6789" size="28" class="inp" required="required">
+                                </td>
+                            </tr>
 
-                        <tr>
-                            <td class="lab">
-                                <label for="email">Email: </label>
-                            </td>
-                            <td>
-                                <input type="email" name="email" id="email" placeholder="examplo.:example@example.com" size="28" class="inp">
-                            </td>
-                        </tr>
+                            <tr>
+                                <td class="lab">
+                                    <label for="email">Email: </label>
+                                </td>
+                                <td>
+                                    <input type="email" name="email" id="email" placeholder="examplo.:example@example.com" size="28" class="inp" required="required">
+                                </td>
+                            </tr>
 
-                        <tr>
-                            <td class="lab">
-                                <label for="assunto">Assunto: </label>
-                            </td>
-                            <td>
-                                <input type="text" name="assunto" id="assunto" size="28" class="inp" placeholder="Assunto">
-                            </td>
-                        </tr>
+                            <tr>
+                                <td class="lab">
+                                    <label for="assunto">Assunto: </label>
+                                </td>
+                                <td>
+                                    <input type="text" name="assunto" id="assunto" size="28" class="inp" placeholder="Assunto" required="required">
+                                </td>
+                            </tr>
 
-                        <tr>
-                            <td class="labTxt">
-                                <label for="texto">Texto: </label>
-                            </td>
-                            <td>
-                                <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
-                            </td>
-                        </tr>
-                    </table>
-                    <div class="dSub"><input type="submit" value="Enviar" class="submit"></div>
-                </fieldset>
-            </form>
+                            <tr>
+                                <td class="labTxt">
+                                    <label for="texto">Texto: </label>
+                                </td>
+                                <td>
+                                    <textarea name="texto" id="texto" cols="30" rows="10" required="required"></textarea>
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="dSub"><input type="submit" value="Enviar" class="submit"></div>
+                    </fieldset>
+                </form>
+            </div>
         </section>
     </main>
     <footer class="footer">
