@@ -1,0 +1,17 @@
+laranja
+#F26120
+#CC3910
+
+
+azul
+#135261
+#79CBD6
+#8CE8F3
+#4DABCF
+#073447
+
+
+
+neutro
+#292929
+#6B6B6B
