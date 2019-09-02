@@ -107,7 +107,7 @@ body{
 }
 .formulario{
     overflow: hidden;
-    width: 343px;
+    width: 830px;
     margin: auto;
 }
 form{
@@ -136,6 +136,10 @@ textarea{
 }
 .dSub{
     text-align: center;
+}
+input[type=text], input[type=email], input[type=number] {
+    height: 50px;
+    border-radius: 5px;
 }
 .submit{
     
