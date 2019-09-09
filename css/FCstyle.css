@@ -105,42 +105,6 @@ body{
     text-align: center;
     color: white;
 }
-.formulario{
-    overflow: hidden;
-    width: 830px;
-    margin: auto;
-}
-form{
-    width: 200px;
-    margin-bottom: 20px;
-}
-legend{
-    background-color: #4e4e4e;
-    padding: 10px;
-    border-radius: 10px;
-    font-weight: bold;
-    border: 2px solid #707070;
-    color: white;
-}
-fieldset{
-    border: 2px solid #8a8a8a;
-}
 .ult_p{
     margin-bottom: 0;
-}
-.lab{
-    text-align: right;
-}
-textarea{
-    resize: none;
-}
-.dSub{
-    text-align: center;
-}
-input[type=text], input[type=email], input[type=number] {
-    height: 50px;
-    border-radius: 5px;
-}
-.submit{
-    
 }

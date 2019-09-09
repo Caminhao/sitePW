@@ -27,59 +27,48 @@
         <section>
             <div class="formulario">
                 <form method="GET" action="#">
-                    <fieldset>
-                        <legend>Fale conosco</legend>
-                        <table>
+                    <table border="1">
+                        <tbody>
                             <tr>
-                                <td rowspan="3">
-                                    <img src="img/formimg.webp">
-                                </td>
-                                <td class="lab">
-                                    <label for="nome">Nome: </label>
+                                <td colspan="2" rowspan="3">
+                                    <img src="img/formimg.webp" alt="imagem do formulario">
                                 </td>
                                 <td>
-                                    <input type="text" name="nome" id="nome" placeholder="Nome" size="28" class="inp" required="required">
+                                    <label for="nome">Nome:</label>
+                                    <input type="text" name="nome" id="nome" required>
                                 </td>
                             </tr>
-
                             <tr>
-                                <td class="lab">
-                                    <label for="phone">Telefone: </label>
-                                </td>
                                 <td>
-                                    <input type="number" name="phone" id="phone" placeholder="(xx) 12345-6789" size="28" class="inp" required="required">
+                                    <label for="email">email: </label>
+                                    <input type="email" name="email" id="email" required>
                                 </td>
                             </tr>
-
                             <tr>
-                                <td class="lab">
-                                    <label for="email">Email: </label>
-                                </td>
                                 <td>
-                                    <input type="email" name="email" id="email" placeholder="examplo.:example@example.com" size="28" class="inp" required="required">
+                                    <label for="num">Tel</label>
+                                    <input type="tel" name="num" id="num" required>
                                 </td>
                             </tr>
-
                             <tr>
-                                <td class="lab">
-                                    <label for="assunto">Assunto: </label>
-                                </td>
-                                <td colspan="2">
-                                    <input type="text" name="assunto" id="assunto" size="28" class="inp" placeholder="Assunto" required="required">
+                                <td colspan="3">
+                                    <label for="assunto">assunto: </label>
+                                    <input type="text" name="assunto" id="assunto" required>
                                 </td>
                             </tr>
-
                             <tr>
-                                <td class="labTxt">
-                                    <label for="texto">Texto: </label>
-                                </td>
-                                <td colspan="2">
-                                    <textarea name="texto" id="texto" cols="400" rows="10" required="required"></textarea>
+                                <td colspan="3">
+                                    <label for="txt">texto: </label><br>
+                                    <textarea name="txt" id="txt" cols="30" rows="10" style="resize: none" required></textarea>
                                 </td>
                             </tr>
-                        </table>
-                        <div class="dSub"><input type="submit" value="Enviar" class="submit"></div>
-                    </fieldset>
+                            <tr>
+                                <td colspan="3">
+                                    <input type="submit" value="enviar">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </form>
             </div>
         </section>
