@@ -3,7 +3,7 @@
     src: url(../fonts/Bellerose.ttf);
 }
 @font-face{
-    font-family: confortaa;-*/7 
+    font-family: confortaa;
     src: url(../fonts/Comfortaa-Regular.ttf)
 }
 body{
@@ -11,7 +11,7 @@ body{
     padding: 0;
     margin: 0;
     border: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: confortaa;
 }
 .header{
     background-color: #004552;
@@ -107,4 +107,34 @@ body{
 }
 .ult_p{
     margin-bottom: 0;
+}
+input{
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid #646464;
+}
+#assunto{
+    width: 990px;
+}
+#ta{
+    padding: 20px;
+}
+textarea{
+    border-radius: 7px;
+    border: 1px solid #646464;
+}
+#submit{
+    width: 100px;
+}
+#sub{
+    padding-left: 500px;
+}
+#espaco{
+    padding: 30px 0 10px 0;
+}
+.formulario{
+    padding: 40px 170px;
+}
+.formulario h2{
+    text-align: center;
 }

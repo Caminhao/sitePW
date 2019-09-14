@@ -12,11 +12,11 @@
         </header>
         <nav class="nav"> 
             <ul>
-                <li><a href="#"><p>drone</p></a></li>
-                <li><a href="#"><p>Robos Domésticos</p></a></li>
+                <li><a href="./Drone.html"><p>drone</p></a></li>
+                <li><a href="./domestico.html"><p>Robos Domésticos</p></a></li>
                 <li><a href="#"><p>Robos militares</p></a></li>
                 <li><a href="#"><p>Carros</p></a></li>
-                <li><a href="#"><p>Fale conosco</p></a></li>
+                <li><a href="./faleConosco.html"><p>Fale conosco</p></a></li>
             </ul>
         </nav>
     </div>
@@ -26,8 +26,9 @@
     <main class="main">
         <section>
             <div class="formulario">
+                <h2>Fale Conosco</h2>
                 <form method="GET" action="#">
-                    <table border="1">
+                    <table>
                         <tbody>
                             <tr>
                                 <td colspan="2" rowspan="3">
@@ -35,36 +36,36 @@
                                 </td>
                                 <td>
                                     <label for="nome">Nome:</label>
-                                    <input type="text" name="nome" id="nome" required>
+                                    <input type="text" name="nome" id="nome" style="width: 500px;" required>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
                                     <label for="email">email: </label>
-                                    <input type="email" name="email" id="email" required>
+                                    <input type="email" name="email" id="email" style="width: 505px" required>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <label for="num">Tel</label>
-                                    <input type="tel" name="num" id="num" required>
+                                    <label for="num">Tel:</label>
+                                    <input type="tel" name="num" id="num" style="width: 530px;" required>
                                 </td>
                             </tr>
                             <tr>
-                                <td colspan="3">
+                                <td colspan="3" id="espaco">
                                     <label for="assunto">assunto: </label>
                                     <input type="text" name="assunto" id="assunto" required>
                                 </td>
                             </tr>
                             <tr>
-                                <td colspan="3">
+                                <td colspan="3" id="ta">
                                     <label for="txt">texto: </label><br>
-                                    <textarea name="txt" id="txt" cols="30" rows="10" style="resize: none" required></textarea>
+                                    <textarea name="txt" id="txt" cols="150" rows="10" style="resize: none" required></textarea>
                                 </td>
                             </tr>
                             <tr>
-                                <td colspan="3">
-                                    <input type="submit" value="enviar">
+                                <td colspan="3" id="sub">
+                                    <input type="submit" value="enviar" id="submit">
                                 </td>
                             </tr>
                         </tbody>

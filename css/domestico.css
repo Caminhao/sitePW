@@ -1,0 +1,9 @@
+h2{
+  text-align: center;    
+  text-transform: uppercase;
+}
+.main section{
+    padding: 0 90px;
+    /* mudar o margin-bottom quando adicionar as bolinhasm, ele serve para deixar o rodapé no canto de baixo da tela */
+    margin-bottom: 300px;
+}
