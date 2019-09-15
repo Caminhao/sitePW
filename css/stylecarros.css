@@ -1,0 +1,9 @@
+.sec_main{
+    margin: 60px;
+}
+.sec_main h2{
+    text-align: center;
+}
+.sec_main p{
+    text-align: justify;
+}
